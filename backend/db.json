@@ -1,0 +1,72 @@
+{
+  "employees": [
+    {
+      "firstname": "Augustus",
+      "middlename": "Gus",
+      "lastname": "Waters",
+      "dob": "1994-03-14",
+      "email": "augustus@gmail.com",
+      "maritalstatus": "single",
+      "phoneno": "12342543453",
+      "address": {
+        "street": "1234 N. Meridian St.",
+        "city": "Indianapoils",
+        "state": "IN",
+        "country": "United States",
+        "zipcode": "NA232"
+      },
+      "id": "68f6"
+    },
+    {
+      "firstname": "Ava",
+      "middlename": "",
+      "lastname": "Max",
+      "dob": "1994-02-16",
+      "email": "avamax@gmail.com",
+      "maritalstatus": "single",
+      "phoneno": "1232989892",
+      "address": {
+        "street": "Milwaukee",
+        "city": "Wisconsin",
+        "state": "United States",
+        "country": "America",
+        "zipcode": "CA 90067"
+      },
+      "id": "cba8"
+    },
+    {
+      "firstname": "Sherlock",
+      "middlename": "",
+      "lastname": "Holmes",
+      "dob": "2025-08-24",
+      "email": "Sherlock@gmail.com",
+      "maritalstatus": "single",
+      "phoneno": "25625723",
+      "address": {
+        "street": "221B BAKER STREET",
+        "city": "London",
+        "state": "NW",
+        "country": "London",
+        "zipcode": "NW16XE"
+      },
+      "id": "feec"
+    },
+    {
+      "firstname": "Justin",
+      "middlename": "Drew",
+      "lastname": "Bieber",
+      "dob": "2026-02-09",
+      "email": "justin@gmail.com",
+      "maritalstatus": "married",
+      "phoneno": "123456789",
+      "address": {
+        "street": "RG12 9FG",
+        "city": "Little Whinging",
+        "state": "brooklyn",
+        "country": "United Kingdom",
+        "zipcode": "08109"
+      },
+      "id": "09d1"
+    }
+  ]
+}
