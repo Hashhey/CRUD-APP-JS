@@ -1,7 +1,7 @@
 const employeesContainerEle = document.getElementById("employees-container");
 async function getAllEmployees() {
   try {
-    let resp = await fetch(`http://localhost:5000/employees`);
+    let resp = await fetch(`https://crud-app-js-h1kp.onrender.com/employees`);
     let data = await resp.json();
     console.log(data);
     displayEmployees(data);
@@ -81,9 +81,12 @@ function displayEmployees(AllEmployees) {
 async function handleDelete(id) {
   console.log(id);
   try {
-    let resp = await fetch(`http://localhost:5000/employees/${id}`, {
-      method: "DELETE",
-    });
+    let resp = await fetch(
+      `https://crud-app-js-h1kp.onrender.com/employees${id}`,
+      {
+        method: "DELETE",
+      },
+    );
     console.log(resp);
   } catch (error) {
     console.log(error);
