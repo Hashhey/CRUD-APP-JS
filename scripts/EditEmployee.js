@@ -67,13 +67,16 @@ employeeFormEle.addEventListener("submit", async (e) => {
   };
 
   try {
-    let resp = await fetch(`https://crud-app-js-h1kp.onrender.com/employees${id}`, {
-      method: "PUT",
-      headers: {
-        "Content-Type": "application/json",
+    let resp = await fetch(
+      `https://crud-app-js-h1kp.onrender.com/employees/${id}`,
+      {
+        method: "PUT",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(updateEmployeeData),
       },
-      body: JSON.stringify(updateEmployeeData),
-    });
+    );
     console.log(resp);
   } catch (error) {
     console.log(error);
