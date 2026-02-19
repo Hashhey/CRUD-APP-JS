@@ -46,6 +46,15 @@ a{
     color: black;
 }
 
+.allemp{
+    justify-content: center;
+    align-items: center;
+    color: #0d0647;
+    margin-top: 10px;
+    text-align: center;
+    border: 2px #ddd;
+}
+
 
 .emp-card{
     
