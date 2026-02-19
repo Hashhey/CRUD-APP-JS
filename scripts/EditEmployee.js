@@ -18,8 +18,9 @@ const id = params.get("id");
 async function getEditEmployee() {
   try {
     let resp = await fetch(
-      `https://crud-app-js-h1kp.onrender.com/employees${id}`,
+      `https://crud-app-js-h1kp.onrender.com/employees/${id}`
     );
+
     let data = await resp.json();
     console.log(data);
 
